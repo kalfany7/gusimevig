@@ -6,7 +6,7 @@ public class Assignment01Main {
         System.out.println("Please input group size:");
         Scanner input = new Scanner(System.in);
         int groupSize = input.nextInt();
-        System.out.println("The group has " + groupSize + " students.");
+        System.out.println("The group has " + groupSize + " ");
 
         Group newGroup = new Group(groupSize);
 
