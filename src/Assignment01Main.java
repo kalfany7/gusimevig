@@ -38,10 +38,11 @@ public class Assignment01Main {
             }
             Snumber = input.nextInt();
         }
-
+        
         for (int i = 0; i < groupSize; i++) {
             System.out.println(newGroup.students[i].getName() + ", s" + newGroup.students[i].getSnumber());
         }
+
         input.close();
     }
 }
